@@ -341,6 +341,7 @@ def De(ship): # DE
              173476,#昭南
              184582,#仓桥
              190373,#鹈来
+	     194305,#能美
              ]
   if (ship in idList):
     return 1
