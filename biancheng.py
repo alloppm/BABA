@@ -311,7 +311,7 @@ def grantById(ship): # 除去ID
   6698, #霰
   641, #大潮
   160969, #宗谷
-  803, #RO500
+  184491, #i-201
   ]
   if (ship in idList):
     return 0
