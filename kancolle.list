@@ -14,3 +14,4 @@ payload:
   - DOMAIN-SUFFIX,tenco.cc
   - DOMAIN-SUFFIX,wheel-soft.com
   - IP-CIDR,203.104.209.0/24
+  - DOMAIN-SUFFIX,akashi-list.me
