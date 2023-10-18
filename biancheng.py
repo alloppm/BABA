@@ -343,6 +343,7 @@ def De(ship): # DE
              190373,#鹈来
 	     194305,#能美
 	     199727,#稻木
+	     201550,#二二
              ]
   if (ship in idList):
     return 1
