@@ -32,7 +32,7 @@ def getShipConstId(name):
 MARUYU_CONST_ID = getShipConstId("まるゆ")
 
 
-MAX_LEVEL = 175 # 等级上限
+MAX_LEVEL = 180 # 等级上限
 
 #===================================================#
 #                                                   #
