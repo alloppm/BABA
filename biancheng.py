@@ -295,6 +295,7 @@ def disposable(): # 因为狗粮受拆船影响大，所以需要经常更新候
 def grantById(ship): # 除去ID
   idList = [ 
 	  #7-1
+	  200586, #javelin
 	  76, #夕张
 	  #7-1-1
 	  3413, #夕云
