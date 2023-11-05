@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
++# -*- coding: utf-8 -*-
 
 
 #===================================================#
@@ -372,26 +372,6 @@ def ssDual(ship):
   else:
     return 0
     
-def i_flagship(ship):
-  idList = [ 803,#500
-             20939,#511
-             32017,#504
-             ]
-  if (ship in idList):
-    return 1
-  else:
-    return 0
-
-def ss_2(ship):
-  idList = [ 18358,#401
-             22921,#26
-             40514,#400
-             ]
-  if (ship in idList):
-    return 1
-  else:
-    return 0
-
 def avb1(ship):
   idList = [ 10604,#瑞穗
 	     24968,#CT
@@ -408,34 +388,6 @@ def avb1(ship):
     return 1
   else:
     return 0    
-    
-def i_168(ship):
-  idList = [ 3172, 3353, 10044, 52640, 21158, 11395, 21174, 11596, 37340]
-  if (ship in idList):
-    return 1
-  else:
-    return 0
-
-def i_19(ship):
-  idList = [ 4636, 5801, 11572, 46964, 19711, 9754, 11289, 21165]
-  if (ship in idList):
-    return 1
-  else:
-    return 0
-    
-def i_58(ship):
-  idList = [ 919, 913, 3465, 6128, 9654, 11314, 21182, 21166, 27975,47558]
-  if (ship in idList):
-    return 1
-  else:
-    return 0
-    
-def i_8(ship):
-  idList = [ 4220, 6255, 4904, 6057, 11417, 21187, 8753, 8829, 11592]
-  if (ship in idList):
-    return 1
-  else:
-    return 0
     
 def grantByLevel_65(ship): # 取自远征38的旗舰等级要求
 	global shipsState
