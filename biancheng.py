@@ -292,6 +292,14 @@ def disposable(): # 因为狗粮受拆船影响大，所以需要经常更新候
 		id = getOne(key)
 	return id
 
+def equip(ship):
+	if not grantById(ship):
+		return 0
+	elif De(ship):
+		return 0
+	else:
+		return 1
+
 def grantById(ship): # 除去ID
   idList = [ 
 	  #7-1
