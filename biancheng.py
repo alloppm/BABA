@@ -500,3 +500,5 @@ de = lambda : getOne("de")
 dd = lambda : getOne("dd")
 av = lambda : getOne("av")
 ss_ssv = lambda : getOne("ss_ssv")
+
+all = lambda : getOne("all")
