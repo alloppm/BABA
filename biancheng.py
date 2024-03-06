@@ -362,20 +362,29 @@ def De(ship): # DE
 	  89237,#择捉
 	  103352,#松轮
 	  113572,#平户
-	  128303,#四号
 	  173421,#屋代
-	  173451,#三⚪
 	  173476,#昭南
 	  184582,#仓桥
 	  190373,#鹈来
 	  194305,#能美
 	  199727,#稻木
-	  201550,#二二
+	  
   ]
   if (ship in idList):
     return 1
   else:
     return 0
+
+def exDeDual(ship):
+	idList = [
+		128303,#四号
+		173451,#三⚪
+		201550,#二二
+	]
+	if (ship in idList):
+		return 0
+	else:
+		return 1
     
 def ssDual(ship):
   idList = [ 
