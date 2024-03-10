@@ -295,7 +295,7 @@ def disposable(): # 因为狗粮受拆船影响大，所以需要经常更新候
 def equip(ship):
 	if not grantById(ship):
 		return 0
-	elif exDeDual(ship):
+	elif De(ship):
 		return 0
 	else:
 		return 1
@@ -368,7 +368,6 @@ def De(ship): # DE
 	  190373,#鹈来
 	  194305,#能美
 	  199727,#稻木
-	  
   ]
   if (ship in idList):
     return 1
