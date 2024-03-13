@@ -151,7 +151,7 @@ def getList(key):
 	return lists[key]
 
 lambdas["all"] = lambda: sortByExperienceAsc(filterPracticalness(ShipUtility.All(shipsState))) # 所有舰船，经验升序
-lambdas["all"] = lambda: sortByExperienceAsc(ShipUtility.All(shipsState)) # 所有舰船，经验升序 # 暂时排除掉过滤马路油的函数调用，等待“宗谷”的问题解决后再恢复回来。
+#lambdas["all"] = lambda: sortByExperienceAsc(ShipUtility.All(shipsState)) # 所有舰船，经验升序 # 暂时排除掉过滤马路油的函数调用，等待“宗谷”的问题解决后再恢复回来。
 
 lambdas["ex_ss"] = lambda: [shipObj for shipObj in getList("all") if ShipUtility.Type(shipObj) != ShipType.Submarine] # 除去SS
 lambdas["ex_ss_ssv"] = lambda: [shipObj for shipObj in getList("ex_ss") if ShipUtility.Type(shipObj) != ShipType.AircraftCarryingSubmarine] # 除去SS ssv
