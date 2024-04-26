@@ -304,11 +304,21 @@ def equip(ship):
 	else:
 		return 1
 
-def grantById(ship): # 除去ID
-  idList = [ 
-  	  #远征禁用
+def expedition(ship):
+	idList = [
+	#远征禁用
 	  779,#ise
 	  242,#日向
+	]
+	if (ship in idList):
+		return 0
+	elif not grantById(ship):
+		return 0
+	else:
+		return 1
+
+def grantById(ship): # 除去ID
+  idList = [ 
 	  #7-1
 	  697,#天津风
 	  205602, #矢矧2
