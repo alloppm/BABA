@@ -306,6 +306,9 @@ def equip(ship):
 
 def grantById(ship): # 除去ID
   idList = [ 
+  	  #远征禁用
+	  779,#ise
+	  242,#日向
 	  #7-1
 	  697,#天津风
 	  205602, #矢矧2
