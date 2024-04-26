@@ -526,6 +526,7 @@ ex_ss_ssv = lambda : getOne("ex_ss_ssv")
 bb = lambda : getOne("bb_bbc_bbv")
 ca = lambda : getOne("ca")
 cvl = lambda : getOne("cvl")
+ass = lambda : getOne("as")
 
 
 all = lambda : getOne("all")
