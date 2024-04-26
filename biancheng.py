@@ -307,8 +307,10 @@ def equip(ship):
 def expedition(ship):
 	idList = [
 	#远征禁用
-	  779,#ise
-	  242,#日向
+	  	779,#ise
+		242,#日向
+		184584,12662,11436,#大和
+		176820,21471,15570,#武藏
 	]
 	if (ship in idList):
 		return 0
