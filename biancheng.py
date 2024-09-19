@@ -347,12 +347,12 @@ def grantById(ship): # 除去ID
 	  10695,#清霜
 	  697,#天津风
 	  #演习
-	  176820,#武藏
-	  190519,#JeanBart
-	  194312,#TUS
-	  220190,#矢矧3
-	  214502,#平安丸
-	  190392,#langley
+	  225387,#valiant
+	  223406,#JeanBart2
+	  226302,#Phoenix
+	  223414,#gloire
+	  223414,#mogador
+	  225381,#Lexington
   ]
   if (ship in idList):
     return 0
