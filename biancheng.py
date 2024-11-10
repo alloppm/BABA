@@ -351,7 +351,7 @@ def grantById(ship): # 除去ID
 	  223406,#JeanBart2
 	  226302,#Phoenix
 	  223414,#gloire
-	  223414,#mogador
+	  225383,#mogador
 	  225381,#Lexington
   ]
   if (ship in idList):
