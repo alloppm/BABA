@@ -347,7 +347,7 @@ def grantById(ship): # 除去ID
 	  10695,#清霜
 	  697,#天津风
 	  #演习
-	  225387,#valiant
+	  220190,#矢矧3
 	  223406,#JeanBart2
 	  226302,#Phoenix
 	  223414,#gloire
