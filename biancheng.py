@@ -348,7 +348,7 @@ def grantById(ship): # 除去ID
 	  697,#天津风
 	  #演习
 	  220190,#矢矧3
-	  223406,#JeanBart2
+	  52157,#JeanBart2
 	  226302,#Phoenix
 	  223414,#gloire
 	  225383,#mogador
