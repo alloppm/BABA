@@ -16,3 +16,4 @@ payload:
   - IP-CIDR,203.104.209.0/24
   - DOMAIN-SUFFIX,akashi-list.me
   - DOMAIN-SUFFIX,webstg.space
+  - DOMAIN-SUFFIX,kancolle-server.com
