@@ -325,7 +325,7 @@ def expedition(ship):
 def grantById(ship): # 除去ID
   idList = [ 
 	  #7-1
-	  240158,#RPL
+	  236962,#杉
 	  220190, #矢矧3
 	  #7-1-1
 	  2, #时雨
