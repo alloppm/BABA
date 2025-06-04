@@ -353,10 +353,10 @@ def grantById(ship): # 除去ID
 	  697,#天津风
 	  #演习
 	  240127,#大和4
-	  173032,#nelson2
 	  237069,#minneapolis
 	  208260,#铃谷
 	  208213,#熊野
+	  237504,#一零一2
 	  238292,#岛根丸
   ]
   if (ship in idList):
