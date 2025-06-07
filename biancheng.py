@@ -298,6 +298,17 @@ def disposable(): # 因为狗粮受拆船影响大，所以需要经常更新候
 		id = getOne(key)
 	return id
 
+def grantById(ship): # 除去ID
+	if yanxi(ship):
+		return 0
+	elif fourFive(ship):
+		return 0
+	elif oneThree(ship):
+		return 0
+	elif sevenOne(ship):
+		return 0
+	return 1
+	
 def equip(ship):
 	if not grantById(ship):
 		return 0
@@ -324,37 +335,8 @@ def expedition(ship):
 	else:
 		return 1
 
-def grantById(ship): # 除去ID
+def yanxi(ship): # 演习
   idList = [ 
-	  #7-1
-	  236962,#杉
-	  237520,#榧
-	  236930,#基诺夫
-	  #7-1-1
-	  2, #时雨
-	  10994,#秋云
-	  17833, #风云
-	  2660, #霞
-	  #7-2-2
-	  17676, #初月
-	  17849,#冲波
-	  5808, #长波
-	  599, #雪风
-	  #1-3
-	  174644, #云鹰
-	  160969, #宗谷
-	  2, #时雨
-	  933, #黑潮
-	  697, #天津风
-	  10695, #清霜
-	  #4-5
-	  100,#凤翔
-	  814,#瑞凤
-	  8192,#卷云
-	  220190,#矢矧3
-	  10695,#清霜
-	  697,#天津风
-	  #演习
 	  240127,#大和4
 	  237069,#minneapolis
 	  208260,#铃谷
@@ -363,11 +345,39 @@ def grantById(ship): # 除去ID
 	  238292,#岛根丸
   ]
   if (ship in idList):
-    return 0
-  else:
     return 1
+  else:
+    return 0
 
-def seven(ship): # 除去ID
+def fourFive(ship): # 4-5
+  idList = [ 
+	  100,#凤翔
+	  814,#瑞凤
+	  8192,#卷云
+	  220190,#矢矧3
+	  10695,#清霜
+	  697,#天津风
+  ]
+  if (ship in idList):
+    return 1
+  else:
+    return 0
+
+def oneThree(ship): # 1-3
+  idList = [ 
+	  174644, #云鹰
+	  160969, #宗谷
+	  2, #时雨
+	  933, #黑潮
+	  697, #天津风
+	  10695, #清霜
+  ]
+  if (ship in idList):
+    return 1
+  else:
+    return 0
+
+def sevenOne(ship): # 7-1
   idList = [ 
 	  236930,#基诺夫
 	  17676, #初月
@@ -379,7 +389,6 @@ def seven(ship): # 除去ID
     return 1
   else:
     return 0
-
 
 def false(ship):
   return 0
