@@ -365,6 +365,20 @@ def grantById(ship): # 除去ID
   else:
     return 1
 
+def seven(ship): # 除去ID
+  idList = [ 
+	  236930,#基诺夫
+	  17676, #初月
+	  17849,#冲波
+	  5808, #长波
+	  599, #雪风
+  ]
+  if (ship in idList):
+    return 1
+  else:
+    return 0
+
+
 def false(ship):
   return 0
 
