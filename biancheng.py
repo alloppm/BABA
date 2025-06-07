@@ -181,6 +181,8 @@ lambdas["ao"] = lambda: [shipObj for shipObj in getList("all") if ShipUtility.Ty
 lambdas["ct"] = lambda: [shipObj for shipObj in getList("all") if ShipUtility.Type(shipObj) == ShipType.TrainingCruiser] # CT
 lambdas["clt"] = lambda: [shipObj for shipObj in getList("all") if ShipUtility.Type(shipObj) == ShipType.TorpedoCruiser] # CLT
 
+lambdas["cldd"] = lambda: getList("cl") + getList("dd") # cldd
+
 lambdas["cvl_upgraded"] = lambda: filterUpgraded(getList("cvl")) # 至少一改之后的CVL
 lambdas["av_upgraded"] = lambda: filterUpgraded(getList("av")) # 至少一改之后的AV
 lambdas["cl_upgraded"] = lambda: filterUpgraded(getList("cl")) # 至少一改之后的CL
@@ -547,6 +549,7 @@ bb = lambda : getOne("bb_bbc_bbv")
 ca = lambda : getOne("ca")
 cvl = lambda : getOne("cvl")
 ass = lambda : getOne("as")
+cldd = lambda : getOne("cldd")
 
 
 all = lambda : getOne("all")
