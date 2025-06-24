@@ -379,7 +379,7 @@ def oneThree(ship): # 1-3
 
 def sevenOne(ship): # 7-1
   idList = [ 
-	  236930,#基诺夫
+	  111093,#perth
 	  17676, #初月
 	  17849,#冲波
 	  5808, #长波
